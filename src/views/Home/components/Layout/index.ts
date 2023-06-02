@@ -1,0 +1,5 @@
+export { default as InfoImg } from './InfoImg'
+export { default as InfoText } from './InfoText'
+export { default as Layout } from './Layout'
+export { default as LayoutInfo } from './LayoutInfo'
+export { default as Title } from './Title'

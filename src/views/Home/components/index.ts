@@ -1,0 +1,6 @@
+export * from './Banner'
+export * from './Footer'
+export * from './Layout'
+export * from './Mision&Vision'
+export * from './Objectives&Values'
+export * from './Philosophy&Objetives'
