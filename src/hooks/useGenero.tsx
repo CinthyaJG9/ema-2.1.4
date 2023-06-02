@@ -4,7 +4,7 @@ import type { selectData } from '@/typings';
 
 const DefaultGenero: selectData = {
   value: null,
-  name: 'Escoge unos género',
+  name: 'Escoge un género',
 };
 
 type useGeneroT = (dataGenero: ICGenero[]) => {
