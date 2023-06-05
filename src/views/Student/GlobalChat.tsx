@@ -95,13 +95,13 @@ const GlobalChat: FC = () => {
         }
       ])
 
-      // socket.emit('chat:global', {
-      //   name,
-      //   img: img_user ?? '/img/user.png',
-      //   messaage: userMessage
-      // })
-      // socket.on('chat:global', setMessageOtherUser)
-      // setOneRender(false)
+       socket.emit('chat:global', {
+         name,
+         img: img_user ?? '/img/user.png',
+         messaage: userMessage
+       })
+       socket.on('chat:global', setMessageOtherUser)
+       setOneRender(false)
     }
 
     return () => {
