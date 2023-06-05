@@ -19,7 +19,7 @@ import dayjs from 'dayjs'
 
 import io from 'socket.io-client'
 
-// const socket = io(process.env.NEXT_PUBLIC_ENDPOINT_CHAT || 'http://localhost:8080')
+const socket = io(process.env.NEXT_PUBLIC_ENDPOINT_CHAT || 'http://localhost:8080')
 
 interface chat {
   name: string
