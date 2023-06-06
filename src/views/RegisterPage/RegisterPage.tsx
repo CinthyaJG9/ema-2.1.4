@@ -23,7 +23,7 @@ const RegisterPage: FC = () => {
   }, [isComplete, counter, router]);
 
   return (
-    <div className='flex h-screen items-center justify-center bg-primary-light pt-36 dark:bg-tertiary'>
+    <div className='flex h-full mb-20 items-center justify-center bg-primary-light pt-36 dark:bg-tertiary'>
       <div className='flex h-full w-full flex-col items-center justify-evenly'>
         <LoadBar />
         <div className='my-8 w-1/2 md:w-3/12'>
