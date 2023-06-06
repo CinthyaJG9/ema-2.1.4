@@ -13,7 +13,7 @@ const LoginPage: FC = () => {
   }
 
   return (
-    <div className='grid h-[90vh] grid-cols-1 dark:bg-tertiary lg:grid-cols-2'>
+    <div className='grid h-full mt-40 grid-cols-1 dark:bg-tertiary lg:grid-cols-2'>
       <div className='flex h-1/2 flex-col justify-center p-4'>
         <div className='flex flex-col items-center justify-center p-4'>
           <div className='flex flex-col items-center gap-2'>
