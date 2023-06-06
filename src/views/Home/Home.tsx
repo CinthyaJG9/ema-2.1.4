@@ -18,7 +18,7 @@ const Home: FC = () => {
           description='EMA es una empresa desarrollada por alumnos para ayudar a otros estudiantes con su aprendizaje escolar'
         >
           <main
-            className='relative flex min-h-screen flex-col  bg-primary-light px-12 py-8 dark:bg-tertiary '
+            className='relative flex min-h-screen flex-col break-words bg-primary-light px-12 py-8 dark:bg-tertiary '
             id={'home'}
           >
             <Banner />

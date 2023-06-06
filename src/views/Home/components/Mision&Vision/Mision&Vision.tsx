@@ -30,3 +30,4 @@ const Mision: FC = () => {
 }
 
 export default Mision
+

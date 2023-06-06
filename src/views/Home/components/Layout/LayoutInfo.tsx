@@ -24,12 +24,12 @@ const LayoutInfo: FC<Props> = ({ id, name, title, children, ...props }) => {
     <section
       id={id}
       ref={refView}
-      className='grid h-screen w-full place-items-center pt-[10vh]'
+      className='grid h-screen place-items-center pt-12'
       {...props}
     >
       <Title text={title} />
 
-      <div className='grid h-[80vh] grid-cols-1 md:px-8 lg:grid-cols-2'>
+      <div className='grid h-4/5 grid-cols-1 md:px-8 lg:grid-cols-2'>
         {children}
       </div>
     </section>
