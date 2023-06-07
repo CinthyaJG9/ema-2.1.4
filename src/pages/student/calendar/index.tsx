@@ -34,7 +34,7 @@ const student = session ? getUserSession(session) : null;
   try {
     if (session && student && student.user.rol.id_rol === 2) {
       return {
-        props: { student, user: student, endpoint: process.env.ENDPOINT_CALENDAR },
+        props: { student, user: student, endpoint: process.env.NEXT_PUBLIC_ENDPOINT_CALENDAR },
       };
     }
     await axios.get(
