@@ -38,7 +38,7 @@ const student = session ? getUserSession(session) : null;
       };
     }
     await axios.get(
-      `${process.env.ENDPOINT_CALENDAR}${student?.user.correo_user ?? 'auth/'}`  
+      `${process.env.NEXT_PUBLIC_ENDPOINT_CALENDAR}${student?.user.correo_user ?? 'auth/'}`  
     );
   } catch (e) {
     console.log(e);
